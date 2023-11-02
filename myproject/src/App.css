@@ -367,7 +367,22 @@ padding-right: 80px;
 .arrow {
 color: #5363db;
 }
-.carousel-control-next{
+.visually-hidden{
+  display: none !important
+}
+.carousel-control-next-icon{
+  width: 30px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: #1425c2 !important
+}
+.carousel-control-prev-icon{
+  width: 30px;
+  height: 20px;
+  border-radius: 50px;
+  background-color:#1425c2 !important
+}
+/* .carousel-control-next{
 width: 40px;
 height: 40px;
 position: absolute;
@@ -396,7 +411,7 @@ border: none;
 border-radius: 300px;
 opacity: 1;
 box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 4px 6px rgba(0,0,0,0.2);
-}
+} */
 
 /* blok5 */
 
